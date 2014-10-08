@@ -59,7 +59,7 @@ public class HourlyEmployee extends Employee{
 	
 	@Override
 	public String toString(){
-		return super.toString() + String.format("\nWage: %.2f \nHours:%f",getWage(), getHour());
+		return super.toString() + String.format("\nWage: %.2f \nHours:%.2f",getWage(), getHour());
 	}
 		
 }

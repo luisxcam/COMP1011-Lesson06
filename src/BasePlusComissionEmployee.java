@@ -27,7 +27,9 @@ public class BasePlusComissionEmployee extends ComissionEmployee{
 	}
 	
 	/**
-	 * 
+	 * This method validates the base salary of the employee
+	 * @baseSalary To set the base salary of the employee
+	 * @return True if the base salary is correct, false if not
 	 */
 	private boolean validateBaseSalary(double baseSalary){
 		if(baseSalary>0)
@@ -37,8 +39,8 @@ public class BasePlusComissionEmployee extends ComissionEmployee{
 	}
 
 	/**
-	 * 
-	 * @return
+	 * This method returns the base salary of the employee
+	 * @return The salary amount
 	 */
 	public double getBaseSalary() {
 		return baseSalary;

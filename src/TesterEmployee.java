@@ -55,5 +55,11 @@ public class TesterEmployee {
 			
 			
 		}
+		
+		//What if I wanted the name of the class the elements are aiming
+		for(int i=0; i<employees.length ; i++){
+			System.out.printf("Employee %d is a %s %n",i+1,employees[i].getClass().getName()); //This will extract the name of the class
+			System.out.printf("Employee %d is a %s %n",i+1,employees[i].getClass()); //This will extract the name of the class
+		}
 	}
 }
